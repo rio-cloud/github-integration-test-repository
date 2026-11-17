@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-integration-test-repository
+  description: Test component for GitHub catalog discovery
+  annotations:
+    github.com/project-slug: rio-cloud/github-integration-test-repository
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/engineering
